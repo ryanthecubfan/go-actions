@@ -1,0 +1,19 @@
+title = "Hello, GoVirCon2020!"
+baseURL = "/go-actions/"
+theme = "hugo-xmin"
+languageCode = "en-us"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Hello, GoVirCon2020!"
+    pre = "<i class='fa fa-heart'></i>"
+    url = ""
+    weight = 101
+
+  [[menu.main]]
+    identifier = "gophercon"
+    name = "@GopherCon"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "https://twitter.com/GopherCon/"
+    weight = 102
